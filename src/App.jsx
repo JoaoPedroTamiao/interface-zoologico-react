@@ -1,26 +1,21 @@
 import './App.css'
-import Atracao from './components/Atracao/Atracao'
-import Meiuca from './components/Meiuca/Meiuca';
-import Navegacao from './components/Navegacao/Navegacao'
+import Animais from './pages/Animais/Animais'
+import Home from './pages/Home/Home'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 
 
 function App() {
 
-  const componentes = [];
-  for(let i = 0; i <= 2; i++){
-    componentes.push(<Atracao key={i}/>)
-  }
+    return (
+        <>
 
-  return (
-    <>
-      <Navegacao></Navegacao>
-      <Meiuca></Meiuca>
-      <div className='cnt-atracoes'>
-        {componentes}
-      </div>
-      
-    </>
-  )
+            <Home />
+
+            <Animais />
+
+        </>
+    )
 }
 
 export default App

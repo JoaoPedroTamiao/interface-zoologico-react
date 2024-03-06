@@ -5,7 +5,7 @@ function Atracao() {
 
     return (
         <div className='ctn-atracao'>
-            
+
             <img src={imgNotFound} />
             <p>Lorem Ipsun</p>
         </div>

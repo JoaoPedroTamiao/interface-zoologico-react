@@ -1,32 +1,33 @@
-.tudo{
+.welcome {
     display: flex;
     flex-direction: row;
 }
 
-.esquerda{
+.welcome-countainer {
     display: flex;
-    justify-content:center ;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     font-family: "Caesar Dressing", system-ui;
     width: 50%;
 }
-.direita{
+
+.direita {
     width: 50%;
 }
 
-.batatonese{
+.welcome-image {
     width: 35rem;
 }
 
 
-p{
+p {
     margin: 0px;
     color: black;
     font-size: 25px;
 }
 
-.tonin{
+.tonin {
     font-family: "Caesar Dressing", system-ui;
     color: black;
     font-size: 30px;
